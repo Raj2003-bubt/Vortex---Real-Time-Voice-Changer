@@ -1,0 +1,211 @@
+.root {
+    -fx-font-family: "Segoe UI", "Inter", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+.app-root {
+    -fx-background-color: #07111B;
+}
+
+.header {
+    -fx-background-color: linear-gradient(to right, #0B1E2C, #0D2934);
+    -fx-border-color: transparent transparent #153847 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.app-title {
+    -fx-text-fill: #F4FAFC;
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+    -fx-letter-spacing: 1px;
+}
+
+.app-subtitle {
+    -fx-text-fill: #5FE0D2;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+}
+
+.app-tagline {
+    -fx-text-fill: #8CA3AB;
+    -fx-font-size: 10px;
+    -fx-font-weight: 500;
+}
+
+.content-scroll,
+.content-scroll > .viewport {
+    -fx-background-color: #07111B;
+}
+
+.card {
+    -fx-background-color: #0D1C28;
+    -fx-background-radius: 14px;
+    -fx-border-color: #173A4B;
+    -fx-border-radius: 14px;
+    -fx-border-width: 1px;
+    -fx-padding: 18px;
+}
+
+.card-heading {
+    -fx-text-fill: #F4FAFC;
+    -fx-font-size: 15px;
+    -fx-font-weight: 800;
+}
+
+.field-label {
+    -fx-text-fill: #AFC2CC;
+    -fx-font-weight: 600;
+}
+
+.info-label,
+.preset-description {
+    -fx-text-fill: #7895A3;
+    -fx-font-size: 12px;
+    -fx-line-spacing: 2px;
+}
+
+.combo-box {
+    -fx-background-color: #102837;
+    -fx-background-radius: 8px;
+    -fx-border-color: #245064;
+    -fx-border-radius: 8px;
+    -fx-pref-height: 38px;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #E9F4F7;
+    -fx-background-color: transparent;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #102837;
+    -fx-border-color: #245064;
+}
+
+.combo-box-popup .list-cell:hover,
+.combo-box-popup .list-cell:selected {
+    -fx-background-color: #17495A;
+}
+
+.preset-button {
+    -fx-background-color: #102837;
+    -fx-text-fill: #BED0D8;
+    -fx-background-radius: 8px;
+    -fx-border-color: #21475A;
+    -fx-border-radius: 8px;
+    -fx-padding: 11px 10px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.preset-button:hover {
+    -fx-background-color: #143647;
+}
+
+.preset-button:selected {
+    -fx-background-color: #0D756F;
+    -fx-text-fill: white;
+    -fx-border-color: #35D6C6;
+}
+
+.secondary-button {
+    -fx-background-color: #102837;
+    -fx-text-fill: #D6E5EA;
+    -fx-background-radius: 8px;
+    -fx-border-color: #245064;
+    -fx-border-radius: 8px;
+    -fx-padding: 9px 14px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #173E50;
+}
+
+.start-button,
+.stop-button {
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px 22px;
+    -fx-font-weight: 800;
+    -fx-cursor: hand;
+}
+
+.start-button {
+    -fx-background-color: #078A80;
+}
+
+.start-button:hover {
+    -fx-background-color: #0AA99B;
+}
+
+.stop-button {
+    -fx-background-color: #B64655;
+}
+
+.stop-button:hover {
+    -fx-background-color: #D35968;
+}
+
+.footer {
+    -fx-background-color: #0A1823;
+    -fx-border-color: #153847 transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}
+
+.status-label {
+    -fx-text-fill: #9FB6C0;
+    -fx-font-weight: 600;
+}
+
+.slider .track {
+    -fx-background-color: #1C3A49;
+    -fx-pref-height: 5px;
+}
+
+.slider .thumb {
+    -fx-background-color: #21D4C2;
+    -fx-background-radius: 10px;
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+}
+
+.slider-value {
+    -fx-text-fill: #5FE0D2;
+    -fx-font-weight: 700;
+}
+
+.progress-bar {
+    -fx-pref-height: 8px;
+}
+
+.progress-bar > .track {
+    -fx-background-color: #142D3A;
+    -fx-background-radius: 8px;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(to right, #0D756F, #32D9C9);
+    -fx-background-radius: 8px;
+    -fx-background-insets: 0;
+}
+
+.check-box {
+    -fx-text-fill: #B9CBD3;
+}
+
+.check-box .box {
+    -fx-background-color: #102837;
+    -fx-border-color: #245064;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #0D8E83;
+}
