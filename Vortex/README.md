@@ -1,5 +1,7 @@
 # Vortex — Real-Time Voice Changer
 
+> Academic team project. Original repository: [Sakib-183/Vortex---Real-Time-Voice-Changer](https://github.com/Sakib-183/Vortex---Real-Time-Voice-Changer). Contributor roles and publication notes: [docs/PORTFOLIO_NOTES.md](docs/PORTFOLIO_NOTES.md). This is DSP, **not an AI voice-cloning system**.
+
 A Java-based real-time microphone processing application with a polished JavaFX interface, selectable input/output devices, live level meters, waveform monitoring, and ten distinct voice presets.
 
 ## Included presets
@@ -98,5 +100,15 @@ src/main/java/com/bubt/voicechanger/
 - Close applications that exclusively lock the selected microphone or output device.
 - The effect algorithms are lightweight DSP implementations designed for an academic demonstration, not studio-grade AI voice conversion.
 - If a selected device rejects 48 kHz mono PCM, choose **System Default** or configure the device to 48 kHz in Windows Sound settings.
+
+## Smoke test (pure Java, no audio hardware)
+
+On macOS/Linux with JDK 17+:
+
+```bash
+bash tests/run-smoke-test.sh
+```
+
+This checks PCM conversion, all ten presets, and mute logic. The JavaFX user interface, Windows scripts and live microphone/virtual audio routing still need testing on a Windows machine.
 
 See the `docs` folder for architecture, testing and team responsibilities.

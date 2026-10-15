@@ -1,0 +1,22 @@
+name: Java build and DSP smoke test
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Vortex
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+          cache-dependency-path: Vortex/pom.xml
+      - name: Build JavaFX project
+        run: mvn -B --no-transfer-progress -DskipTests package
+      - name: Run headless DSP smoke test
+        run: bash tests/run-smoke-test.sh

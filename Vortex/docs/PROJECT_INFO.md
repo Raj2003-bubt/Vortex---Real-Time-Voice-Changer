@@ -9,12 +9,12 @@
 
 ## Team
 
-- Habib — 177
-- Sadman — 183
-- Pranto — 187
-- Fahim — 197
+- Habib
+- Sadman
+- Pranto
+- Fahim
 
-## Deliverables in this ZIP
+## Project deliverables (original team documentation)
 
 - Complete Java source code
 - Maven dependency/build configuration

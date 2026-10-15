@@ -1,6 +1,11 @@
+# Maven / build outputs
 target/
+*.class
+*.log
+
+# Editors / OS
 .idea/
 *.iml
 .vscode/
-*.log
 .DS_Store
+Thumbs.db
