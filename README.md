@@ -39,3 +39,12 @@ This test checks DSP output and PCM conversion without hardware. **The UI and li
 ## Team contributions
 
 Per the original team documentation: Habib — integration; Sadman — audio processing; Pranto — UI/UX; Fahim — testing and documentation. No claim of sole authorship is made.
+
+
+## Application Screenshots
+
+### Voice Presets & Audio Devices
+![Vortex Interface](screenshots/vortex-interface.png)
+
+### Real-Time Voice Processing
+![Vortex Processing](screenshots/vortex-processing.png)
