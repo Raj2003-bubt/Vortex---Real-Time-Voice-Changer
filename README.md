@@ -4,7 +4,7 @@
 
 [![Java build and DSP smoke test](https://github.com/Raj2003-bubt/Vortex---Real-Time-Voice-Changer/actions/workflows/java-build.yml/badge.svg)](https://github.com/Raj2003-bubt/Vortex---Real-Time-Voice-Changer/actions/workflows/java-build.yml)
 
-Vortex is an academic programming project at Bangladesh University of Business and Technology (BUBT). It captures microphone audio, applies lightweight digital signal processing (DSP), and plays the transformed signal through a selected output device. JavaFX controls and a live waveform make the signal path visible while the application runs.
+Vortex is an academic team programming project at Bangladesh University of Business and Technology (BUBT). It captures microphone audio, applies lightweight digital signal processing (DSP), and plays the transformed signal through a selected output device. JavaFX controls and a live waveform make the signal path visible while the application runs.
 
 ## Purpose
 
@@ -96,6 +96,6 @@ Potential extensions: latency measurements, stronger audio lifecycle tests, conf
 
 ## Documentation and provenance
 
-[User guide](Vortex/docs/USER_GUIDE.md) · [Architecture](Vortex/docs/ARCHITECTURE.md) · [Test plan](Vortex/docs/TEST_PLAN.md) · [Historical contribution records](Vortex/docs/TEAM_TASKS.md)
+[User guide](Vortex/docs/USER_GUIDE.md) · [Architecture](Vortex/docs/ARCHITECTURE.md) · [Test plan](Vortex/docs/TEST_PLAN.md) · [Portfolio and source attribution](Vortex/docs/PORTFOLIO_NOTES.md)
 
 This repository retains its fork relationship and original history from [Sakib-183/Vortex---Real-Time-Voice-Changer](https://github.com/Sakib-183/Vortex---Real-Time-Voice-Changer). Attribution remains intact; no sole-authorship claim is made. No new license is asserted. Check applicable rights and dependency licenses before redistribution.
